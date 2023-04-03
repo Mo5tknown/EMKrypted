@@ -1,0 +1,2008 @@
+Windows Registry Editor Version 5.00
+
+; kreated by: Mo5tknown
+; http://www.Mo5tknown.com
+
+
+** MK 5tarted on 12-29-2015
+** MK 5tarted on 05-09-2017
+
+:: [ MK ™ Kontext Menu ]
+
+:: [ MK ™ WinRAR V.14 ]
+
+[HKEY_CLASSES_ROOT\WinRAR]
+@="WinRAR archive"
+
+[HKEY_CLASSES_ROOT\WinRAR\DefaultIcon]
+@="C:\\MK WinRAR V14.exe,0"
+
+[HKEY_CLASSES_ROOT\WinRAR\shell]
+
+[HKEY_CLASSES_ROOT\WinRAR\shell\MK :-: Open With MK WinRAR V.14]
+@="MK :-: Open With MK WinRAR V.14"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\WinRAR\shell\MK :-: Open With MK WinRAR V.14\command]
+@="\"C:\\MK WinRAR V.14.exe\" \"%1\""
+
+[HKEY_CLASSES_ROOT\WinRAR\shell\MK :-: Extrack With MK WinRAR V.14 Here]
+"HasLUAShield"=""
+@="MK :-: Extrack MK WinRAR V.14 File Here"
+
+[HKEY_CLASSES_ROOT\WinRAR\shell\MK :-: Extrack With MK WinRAR V.14 Here\command]
+@="\"C:\\MK WinRAR V.14.exe\" x \"%1\""
+
+:: [ MK ™ RezTurner V.14 ]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Resource Tuner_is1]
+"Inno Setup: Setup Version"="5.5.5 (u)"
+"Inno Setup: App Path"="X:\\Program Files\\Resource Tuner"
+"InstallLocation"="X:\\Program Files\\Resource Tuner\\"
+"Inno Setup: Icon Group"="Resource Tuner"
+"Inno Setup: User"="SYSTEM"
+"Inno Setup: Selected Tasks"="desktopicon,desktopicon\\user,sendto"
+"Inno Setup: Deselected Tasks"="desktopicon\\common,quicklaunchicon"
+"Inno Setup: Language"="en"
+"DisplayName"="RezTuner V.14"
+"UninstallString"="\"X:\\Program Files\\Resource Tuner\\unins000.exe\""
+"QuietUninstallString"="\"X:\\Program Files\\Resource Tuner\\unins000.exe\" /SILENT"
+"DisplayVersion"="V.14"
+"Publisher"="@Mo5tknown"
+"URLInfoAbout"="http://www.Mo5tknown.com"
+"HelpLink"="http://www.Mo5tknown.com"
+"URLUpdateInfo"="http://www.Mo5tknown.com"
+"NoModify"=dword:00000001
+"NoRepair"=dword:00000001
+"InstallDate"="19871207"
+"MajorVersion"=dword:00000002
+"MinorVersion"=dword:00000004
+"EstimatedSize"=dword:000025c6
+
+[HKEY_CLASSES_ROOT\cplfile\shell\MK :- : Open With RezTurner]
+@="MK :- : Open With RezTurner"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\cplfile\shell\MK :- : Open With RezTurner\command]
+@="\"X:\\Program Files\\Resource Tuner\\restuner.exe\" \"%1\""
+
+[HKEY_CLASSES_ROOT\dllfile\shell\MK :- : Open With RezTurner]
+@="MK :- : Open With RezTurner"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\dllfile\shell\MK :- : Open With RezTurner\command]
+@="\"X:\\Program Files\\Resource Tuner\\restuner.exe\" \"%1\""
+
+[HKEY_CLASSES_ROOT\exefile\shell\MK :-: Open With RezTurner]
+@="MK :-: Open With RezTurner"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\exefile\shell\MK :-: Open With RezTurner\command]
+@="\"X:\\Program Files\\Resource Tuner\\restuner.exe\" \"%1\""
+
+[HKEY_CLASSES_ROOT\msstylesfile\shell\MK :-: Open With RezTurner]
+@="MK :-: Open With RezTurner"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\msstylesfile\shell\MK :-: Open With RezTurner\command]
+@="\"X:\\Program Files\\Resource Tuner\\restuner.exe\" \"%1\""
+
+[HKEY_CLASSES_ROOT\ocxfile\shell\MK :-: Open With RezTurner]
+@="MK :-: Open With RezTurner"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\ocxfile\shell\MK :-: Open With RezTurner\command]
+@="\"X:\\Program Files\\Resource Tuner\\restuner.exe\" \"%1\""
+
+[HKEY_CLASSES_ROOT\scrfile\shell\MK :-: Open With RezTurner]
+@="MK :-: Open With RezTurner"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\scrfile\shell\MK :-: Open With RezTurner\command]
+@="\"X:\\Program Files\\Resource Tuner\\restuner.exe\" \"%1\""
+
+[HKEY_CLASSES_ROOT\sysfile\shell\MK :-: Open With RezTurner]
+@="MK :-: Open With RezTurner"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\sysfile\shell\MK :-: Open With RezTurner\command]
+@="\"X:\\Program Files\\Resource Tuner\\restuner.exe\" \"%1\""
+
+:: [ MK ™ Directory Menu * ]
+
+[HKEY_CLASSES_ROOT\Directory]
+"AlwaysShowExt"=""
+@="File Folder"
+"EditFlags"=hex:d2,01,00,00
+"FriendlyTypeName"="@shell32.dll,-10152"
+"FullDetails"="prop:System.PropGroup.Description;System.DateCreated;System.FileCount;System.TotalFileSize"
+"InfoTip"="prop:System.Comment;System.DateCreated"
+"NoRecentDocs"=""
+"PreviewDetails"="prop:System.DateModified;*System.SharedWith;*System.OfflineAvailability;*System.OfflineStatus"
+"PreviewTitle"="prop:System.ItemNameDisplay;System.ItemTypeText"
+
+[HKEY_CLASSES_ROOT\Directory\Background]
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell]
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\cmd]
+@="@shell32.dll,-8506"
+"Extended"=""
+"NoWorkingDirectory"=""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\cmd\command]
+@="cmd.exe /s /k pushd \"%V\""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\MK :-: G Mode]
+@="MK :-: G Mode"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\MK :-: G Mode\command]
+@="explorer /root, C:\\Program Files\\Common Files\\RBSoft\\Right Click Tweaker\\MK :-: G Mode.{ED7BA470-8E54-465E-825C-99712043E01C}"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\MK :-: Kontrol Panel]
+@="MK :-: Kontrol Panel"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\MK :-: Kontrol Panel\command]
+@="rundll32.exe shell32.dll,Control_RunDLL"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\MK :-: Problem Rekorder]
+@="MK :-: Problem Rekorder"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\MK :-: Problem Rekorder\command]
+@="C:\\Windows\\system32\\psr.exe"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\MK :-: 5yztem Konfiguration]
+@="MK :-: 5yztem Konfiguration"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\MK :-: 5yztem Konfiguration\command]
+@="msconfig"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\windows.newfolder]
+"CanonicalName"="{E44616AD-6DF1-4B94-85A4-E465AE8A19DB}"
+"Icon"="shell32.dll,-319"
+"Description"="@shell32.dll,-31237"
+"InvokeCommandOnSelection"=dword:00000000
+"ImpliedSelectionModel"=dword:00000004
+"CommandStateHandler"="{3756e7f5-e514-4776-a32b-eb24bc1efe7a}"
+"CommandStateSync"=""
+"Position"="Last"
+@="MK :-: New Folder"
+"MUIVerb"="MK :-: New Folder"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shellex]
+
+[HKEY_CLASSES_ROOT\Directory\Background\shellex\ContextMenuHandlers]
+
+[HKEY_CLASSES_ROOT\Directory\Background\shellex\ContextMenuHandlers\New]
+@="{D969A300-E7FF-11d0-A93B-00A0C90F2719}"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shellex\ContextMenuHandlers\Sharing]
+@="{f81e9010-6ea4-11ce-a7ff-00aa003ca9f6}"
+
+[HKEY_CLASSES_ROOT\Directory\DefaultIcon]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,73,00,68,00,\
+  65,00,6c,00,6c,00,33,00,32,00,2e,00,64,00,6c,00,6c,00,2c,00,33,00,00,00
+
+[HKEY_CLASSES_ROOT\Directory\shell]
+@="none"
+
+[HKEY_CLASSES_ROOT\Directory\shell\cmd]
+@="@shell32.dll,-8506"
+"Extended"=""
+"NoWorkingDirectory"=""
+
+[HKEY_CLASSES_ROOT\Directory\shell\cmd\command]
+@="cmd.exe /s /k pushd \"%V\""
+
+[HKEY_CLASSES_ROOT\Directory\shell\MK :-: Hide Folder]
+@="MK :-: Hide Folder"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\Directory\shell\MK :-: Hide Folder\command]
+@="cmd.exe /c attrib +h +s +r /s /d /l \"%1\""
+
+[HKEY_CLASSES_ROOT\Directory\shell\MK :-: UnHide Folder]
+@="MK :-: UnHide Folder"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\Directory\shell\MK :-: UnHide Folder\command]
+@="cmd.exe /c attrib -h -s -r /s /d /l \"%1\""
+
+[HKEY_CLASSES_ROOT\Directory\shell\MK :-: Open In Kommand Prompt]
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\Directory\shell\MK :-: Open In Kommand Prompt\command]
+@="cmd.exe /k cd \"%1\"*"
+"IsolatedCommand"="cmd.exe /k cd \"%1\"*"
+
+[HKEY_CLASSES_ROOT\Directory\ShellEx]
+
+[HKEY_CLASSES_ROOT\Directory\ShellEx\ContextMenuHandlers]
+
+[HKEY_CLASSES_ROOT\Directory\ShellEx\ContextMenuHandlers\EncryptionMenu]
+@="{A470F8CF-A1E8-4f65-8335-227475AA5C46}"
+
+[HKEY_CLASSES_ROOT\Directory\ShellEx\ContextMenuHandlers\Sharing]
+@="{f81e9010-6ea4-11ce-a7ff-00aa003ca9f6}"
+
+[HKEY_CLASSES_ROOT\Directory\ShellEx\CopyHookHandlers]
+
+[HKEY_CLASSES_ROOT\Directory\ShellEx\CopyHookHandlers\FileSystem]
+@="{217FC9C0-3AEA-1069-A2DB-08002B30309D}"
+
+[HKEY_CLASSES_ROOT\Directory\ShellEx\CopyHookHandlers\Sharing]
+@="{40dd6e20-7c17-11ce-a804-00aa003ca9f6}"
+
+[HKEY_CLASSES_ROOT\Directory\ShellEx\PropertySheetHandlers]
+
+[HKEY_CLASSES_ROOT\Directory\ShellEx\PropertySheetHandlers\Sharing]
+@="{f81e9010-6ea4-11ce-a7ff-00aa003ca9f6}"
+
+[HKEY_CLASSES_ROOT\Directory\ShellEx\PropertySheetHandlers\{1f2e5c40-9550-11ce-99d2-00aa006e086c}]
+@=""
+
+[HKEY_CLASSES_ROOT\Directory\ShellEx\PropertySheetHandlers\{ef43ecfe-2ab9-4632-bf21-58909dd177f0}]
+@=""
+
+:: [ MK ™ Kontext Menu * ]
+
+[HKEY_CLASSES_ROOT\*\shell]
+
+[HKEY_CLASSES_ROOT\*\shell\MK :-: Edit File]
+@="MK :-: Edit File"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\*\shell\MK :-: Edit File\command]
+@="notepad \"%1\""
+
+[HKEY_CLASSES_ROOT\*\shell\MK :-: Kalkulate Ha5h]
+@="MK :-: Kalkulate Ha5h"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\*\shell\MK :-: Kalkulate Ha5h\command]
+
+[HKEY_CLASSES_ROOT\*\shell\MK :-: Kompare File Ha5h]
+@="MK :-: Kompare File Ha5h"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\*\shell\MK :-: Kompare File Ha5h\command]
+
+[HKEY_CLASSES_ROOT\*\shell\MK :-: Open In Kommand Prompt]
+@="MK :-: Open In Kommand Prompt"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\*\shell\MK :-: Open In Kommand Prompt\command]
+@="cmd.exe /k cd \"%1\"*"
+"IsolatedCommand"="cmd.exe /k cd \"%1\"*"
+
+
+[HKEY_CLASSES_ROOT\*\shell\MK :-: Take Own]
+@="MK :-: Take Own"
+"NoWorkingDirectory"=""
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\*\shell\MK :-: Take Own\command]
+@="cmd.exe /c takeown /f \"%1\" /r /d y && icacls \"%1\" /grant administrators:F /t"
+"IsolatedCommand"="cmd.exe /c takeown /f \"%1\" /r /d y && icacls \"%1\" /grant administrators:F /t"
+
+[HKEY_CLASSES_ROOT\*\shell\removeproperties]
+"ProgrammaticAccessOnly"="Apartment"
+
+[HKEY_CLASSES_ROOT\*\shell\removeproperties\DropTarget]
+"CLSID"="{09a28848-0e97-4cef-b950-cea037161155}"
+
+[HKEY_CLASSES_ROOT\*\shell\windows.newfolder]
+@="MK :-: New Folder"
+"CononicalName"="{E44616AD-6DF1-4B94-85A4-E465AE8A19DB}"
+"CommandStateHandler"="{3756e7f5-e514-4776-a32b-eb24bc1efe7a}"
+"CommandStateSync"=""
+"Description"="@shell32.dll,-31237"
+"Icon"="shell32.dll,-319"
+"ImpliedSelectionModel"=dword:00000004
+"InvokeCommandOnSelection"=dword:00000000
+"MUIVerb"="MK :-: New Folder"
+"Position"="Last"
+
+[HKEY_CLASSES_ROOT\*\shell\MK :-: Hide File]
+@="MK :-: Hide File"
+"HasLUAShield"=""
+"NoWorkingDirectory"=""
+
+[HKEY_CLASSES_ROOT\*\shell\MK :-: Hide File\command]
+@="cmd.exe /c attrib +h +s +r /s /d /l \"%1\""
+
+:: [ MK ™ Kontext Menu .Bat ]
+
+[HKEY_CLASSES_ROOT\batfile]
+@="Windows Batch File"
+"EditFlags"=hex:30,04,00,00
+
+[HKEY_CLASSES_ROOT\batfile\DefaultIcon]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,69,00,6d,00,\
+  61,00,67,00,65,00,72,00,65,00,73,00,2e,00,64,00,6c,00,6c,00,2c,00,2d,00,36,\
+  00,38,00,00,00
+
+[HKEY_CLASSES_ROOT\batfile\shell]
+
+[HKEY_CLASSES_ROOT\batfile\shell\MK :-: Edit File]
+@="MK :-: Edit File"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\batfile\shell\MK :-: Edit File\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,4e,00,4f,00,\
+  54,00,45,00,50,00,41,00,44,00,2e,00,45,00,58,00,45,00,20,00,25,00,31,00,00,\
+  00
+
+[HKEY_CLASSES_ROOT\batfile\shell\MK :-: Kopy Kontent]
+@="MK :-: Kopy Kontent"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\batfile\shell\MK :-: Kopy Kontent\command]
+@="cmd /c clip < \"%1\""
+
+[HKEY_CLASSES_ROOT\batfile\shell\MK :-: Open File]
+"EditFlags"=hex:00,00,00,00
+@="MK :-: Open File"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\batfile\shell\MK :-: Open File\command]
+@="\"%1\" %*"
+
+[HKEY_CLASSES_ROOT\batfile\shell\MK :-: Print File]
+@="MK :-: Print File"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\batfile\shell\MK :-: Print File\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,4e,00,4f,00,\
+  54,00,45,00,50,00,41,00,44,00,2e,00,45,00,58,00,45,00,20,00,2f,00,70,00,20,\
+  00,25,00,31,00,00,00
+
+[HKEY_CLASSES_ROOT\batfile\shell\MK :-: Run Azz Admini5trator]
+"HasLUAShield"=""
+@="MK :-: Run Azz Admini5trator"
+
+[HKEY_CLASSES_ROOT\batfile\shell\MK :-: Run Azz Admini5trator\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,63,00,6d,00,\
+  64,00,2e,00,65,00,78,00,65,00,20,00,2f,00,43,00,20,00,22,00,25,00,31,00,22,\
+  00,20,00,25,00,2a,00,00,00
+
+[HKEY_CLASSES_ROOT\batfile\shell\runasuser]
+@="@shell32.dll,-50944"
+"Extended"=""
+"SuppressionPolicyEx"="{F211AA05-D4DF-4370-A2A0-9F19C09756A7}"
+
+[HKEY_CLASSES_ROOT\batfile\shell\runasuser\command]
+"DelegateExecute"="{ea72d00e-4960-42fa-ba92-7792a7944c1d}"
+@=""
+
+[HKEY_CLASSES_ROOT\batfile\ShellEx]
+
+[HKEY_CLASSES_ROOT\batfile\ShellEx\DropHandler]
+@="{86C86720-42A0-1069-A2E8-08002B30309D}"
+
+[HKEY_CLASSES_ROOT\batfile\ShellEx\PropertySheetHandlers]
+
+[HKEY_CLASSES_ROOT\batfile\ShellEx\PropertySheetHandlers\PifProps]
+@="{86F19A00-42A0-1069-A2E9-08002B30309D}"
+
+[HKEY_CLASSES_ROOT\batfile\ShellEx\{8895b1c6-b41f-4c1c-a562-0d564250836f}]
+@="{1531d583-8375-4d3f-b5fb-d23bbd169f22}"
+
+
+:: [ MK ™ Kontext Menu .Cat ]
+
+[HKEY_CLASSES_ROOT\CATFile]
+@="Security Catalog"
+"FriendlyTypeName"="@cryptext.dll,-6145"
+
+[HKEY_CLASSES_ROOT\CATFile\DefaultIcon]
+@="cryptui.dll,-3418"
+
+[HKEY_CLASSES_ROOT\CATFile\shell]
+
+[HKEY_CLASSES_ROOT\CATFile\shell\MK :-: Open File]
+"HasLUAShield"=""
+@="MK :-: Open File"
+
+[HKEY_CLASSES_ROOT\CATFile\shell\MK :-: Open File\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,72,00,75,00,\
+  6e,00,64,00,6c,00,6c,00,33,00,32,00,2e,00,65,00,78,00,65,00,20,00,63,00,72,\
+  00,79,00,70,00,74,00,65,00,78,00,74,00,2e,00,64,00,6c,00,6c,00,2c,00,43,00,\
+  72,00,79,00,70,00,74,00,45,00,78,00,74,00,4f,00,70,00,65,00,6e,00,43,00,41,\
+  00,54,00,20,00,25,00,31,00,00,00
+
+:: [ MK ™ Kontext Menu .Cer ]
+
+[HKEY_CLASSES_ROOT\CERFile]
+@="Security Certificate"
+"FriendlyTypeName"="@cryptext.dll,-6108"
+
+[HKEY_CLASSES_ROOT\CERFile\DefaultIcon]
+@="cryptui.dll,-3410"
+
+[HKEY_CLASSES_ROOT\CERFile\shell]
+
+[HKEY_CLASSES_ROOT\CERFile\shell\MK :-: In5tall Certifikate]
+@="MK :-: In5tall Certifikate"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\CERFile\shell\MK :-: In5tall Certifikate\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,72,00,75,00,\
+  6e,00,64,00,6c,00,6c,00,33,00,32,00,2e,00,65,00,78,00,65,00,20,00,63,00,72,\
+  00,79,00,70,00,74,00,65,00,78,00,74,00,2e,00,64,00,6c,00,6c,00,2c,00,43,00,\
+  72,00,79,00,70,00,74,00,45,00,78,00,74,00,41,00,64,00,64,00,43,00,45,00,52,\
+  00,20,00,25,00,31,00,00,00
+
+[HKEY_CLASSES_ROOT\CERFile\shell\MK :-: Open File]
+@="MK :-: Open File"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\CERFile\shell\MK :-: Open File\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,72,00,75,00,\
+  6e,00,64,00,6c,00,6c,00,33,00,32,00,2e,00,65,00,78,00,65,00,20,00,63,00,72,\
+  00,79,00,70,00,74,00,65,00,78,00,74,00,2e,00,64,00,6c,00,6c,00,2c,00,43,00,\
+  72,00,79,00,70,00,74,00,45,00,78,00,74,00,4f,00,70,00,65,00,6e,00,43,00,45,\
+  00,52,00,20,00,25,00,31,00,00,00
+
+:: [ MK ™ Kontext Menu .Chm ]
+
+[HKEY_CLASSES_ROOT\chm.file]
+@="Compiled HTML Help file"
+"FriendlyTypeName"=hex(2):40,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,\
+  00,6f,00,6f,00,74,00,25,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,\
+  32,00,5c,00,68,00,68,00,63,00,74,00,72,00,6c,00,2e,00,6f,00,63,00,78,00,2c,\
+  00,2d,00,34,00,35,00,32,00,00,00
+
+[HKEY_CLASSES_ROOT\chm.file\DefaultIcon]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,68,00,68,00,2e,00,65,00,78,00,65,00,2c,00,30,00,00,00
+
+[HKEY_CLASSES_ROOT\chm.file\shell]
+
+[HKEY_CLASSES_ROOT\chm.file\shell\MK :-: Open]
+@="MK :-: Open"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\chm.file\shell\MK :-: Open\command]
+@=hex(2):22,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,\
+  00,25,00,5c,00,68,00,68,00,2e,00,65,00,78,00,65,00,22,00,20,00,25,00,31,00,\
+  00,00
+
+:: [ MK ™ Kontext Menu .Cmd ]
+
+[HKEY_CLASSES_ROOT\cmdfile]
+@="Windows Command Script"
+"EditFlags"=hex:30,04,00,00
+
+[HKEY_CLASSES_ROOT\cmdfile\DefaultIcon]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,69,00,6d,00,\
+  61,00,67,00,65,00,72,00,65,00,73,00,2e,00,64,00,6c,00,6c,00,2c,00,2d,00,36,\
+  00,38,00,00,00
+
+[HKEY_CLASSES_ROOT\cmdfile\shell]
+
+[HKEY_CLASSES_ROOT\cmdfile\shell\MK :-: Edit File]
+@="MK :-: Edit File"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\cmdfile\shell\MK :-: Edit File\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,4e,00,4f,00,\
+  54,00,45,00,50,00,41,00,44,00,2e,00,45,00,58,00,45,00,20,00,25,00,31,00,00,\
+  00
+
+[HKEY_CLASSES_ROOT\cmdfile\shell\MK :-: Open File]
+"EditFlags"=hex:00,00,00,00
+@="MK :-: Open File"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\cmdfile\shell\MK :-: Open File\command]
+@="\"%1\" %*"
+
+[HKEY_CLASSES_ROOT\cmdfile\shell\MK :-: Print File]
+@="MK :-: Print File"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\cmdfile\shell\MK :-: Print File\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,4e,00,4f,00,\
+  54,00,45,00,50,00,41,00,44,00,2e,00,45,00,58,00,45,00,20,00,2f,00,70,00,20,\
+  00,25,00,31,00,00,00
+
+[HKEY_CLASSES_ROOT\cmdfile\shell\MK :-: Run Azz Admini5trator]
+"HasLUAShield"=""
+@="MK :-: Run Azz Admini5trator"
+
+[HKEY_CLASSES_ROOT\cmdfile\shell\MK :-: Run Azz Admini5trator\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,63,00,6d,00,\
+  64,00,2e,00,65,00,78,00,65,00,20,00,2f,00,43,00,20,00,22,00,25,00,31,00,22,\
+  00,20,00,25,00,2a,00,00,00
+
+[HKEY_CLASSES_ROOT\cmdfile\shell\runasuser]
+@="@shell32.dll,-50944"
+"Extended"=""
+"SuppressionPolicyEx"="{F211AA05-D4DF-4370-A2A0-9F19C09756A7}"
+
+[HKEY_CLASSES_ROOT\cmdfile\shell\runasuser\command]
+"DelegateExecute"="{ea72d00e-4960-42fa-ba92-7792a7944c1d}"
+
+[HKEY_CLASSES_ROOT\cmdfile\ShellEx]
+
+[HKEY_CLASSES_ROOT\cmdfile\ShellEx\DropHandler]
+@="{86C86720-42A0-1069-A2E8-08002B30309D}"
+
+[HKEY_CLASSES_ROOT\cmdfile\ShellEx\PropertySheetHandlers]
+
+[HKEY_CLASSES_ROOT\cmdfile\ShellEx\PropertySheetHandlers\PifProps]
+@="{86F19A00-42A0-1069-A2E9-08002B30309D}"
+
+[HKEY_CLASSES_ROOT\cmdfile\ShellEx\{8895b1c6-b41f-4c1c-a562-0d564250836f}]
+@="{1531d583-8375-4d3f-b5fb-d23bbd169f22}"
+
+:: [ MK ™ Kontext Menu .Com ]
+
+[HKEY_CLASSES_ROOT\comfile]
+@="MS-DOS Application"
+"EditFlags"=hex:30,00,00,00
+"FriendlyTypeName"=hex(2):40,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,\
+  00,6f,00,6f,00,74,00,25,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,\
+  32,00,5c,00,73,00,68,00,65,00,6c,00,6c,00,33,00,32,00,2e,00,64,00,6c,00,6c,\
+  00,2c,00,2d,00,38,00,34,00,36,00,34,00,00,00
+
+[HKEY_CLASSES_ROOT\comfile\DefaultIcon]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,73,00,68,00,\
+  65,00,6c,00,6c,00,33,00,32,00,2e,00,64,00,6c,00,6c,00,2c,00,32,00,00,00
+
+[HKEY_CLASSES_ROOT\comfile\shell]
+
+[HKEY_CLASSES_ROOT\comfile\shell\MK :-: Open File]
+"EditFlags"=dword:00000000
+@="MK :-: Open File"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\comfile\shell\MK :-: Open File\command]
+@="\"%1\" %*"
+
+[HKEY_CLASSES_ROOT\comfile\shellex]
+
+[HKEY_CLASSES_ROOT\comfile\shellex\DropHandler]
+@="{86C86720-42A0-1069-A2E8-08002B30309D}"
+
+[HKEY_CLASSES_ROOT\comfile\shellex\PropertySheetHandlers]
+
+[HKEY_CLASSES_ROOT\comfile\shellex\PropertySheetHandlers\PifProps]
+@="{86F19A00-42A0-1069-A2E9-08002B30309D}"
+
+:: [ MK ™ Kontext Menu .Cpl ]
+
+[HKEY_CLASSES_ROOT\cplfile]
+@="Control Panel Item"
+"FriendlyTypeName"="@shell32.dll,-10155"
+
+[HKEY_CLASSES_ROOT\cplfile\shell]
+
+[HKEY_CLASSES_ROOT\cplfile\shell\MK :-: Open With Kontrol Panel]
+@="MK :-: Open With Kontrol Panel"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\cplfile\shell\MK :-: Open With Kontrol Panel\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,63,00,6f,00,\
+  6e,00,74,00,72,00,6f,00,6c,00,2e,00,65,00,78,00,65,00,20,00,22,00,25,00,31,\
+  00,22,00,2c,00,25,00,2a,00,00,00
+
+[HKEY_CLASSES_ROOT\cplfile\shell\MK :-: Run Azz Admini5trator]
+"HasLUAShield"=""
+@="MK :-: Run Azz Admini5trator"
+
+[HKEY_CLASSES_ROOT\cplfile\shell\MK :-: Run Azz Admini5trator\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,72,00,75,00,\
+  6e,00,64,00,6c,00,6c,00,33,00,32,00,2e,00,65,00,78,00,65,00,20,00,73,00,68,\
+  00,65,00,6c,00,6c,00,33,00,32,00,2e,00,64,00,6c,00,6c,00,2c,00,43,00,6f,00,\
+  6e,00,74,00,72,00,6f,00,6c,00,5f,00,52,00,75,00,6e,00,44,00,4c,00,4c,00,41,\
+  00,73,00,55,00,73,00,65,00,72,00,20,00,22,00,25,00,31,00,22,00,2c,00,25,00,\
+  2a,00,00,00
+
+:: [ MK ™ Kontext Menu .Crl ]
+
+[HKEY_CLASSES_ROOT\CRLFile]
+@="Certificate Revocation List"
+"FriendlyTypeName"="@cryptext.dll,-6110"
+
+[HKEY_CLASSES_ROOT\CRLFile\DefaultIcon]
+@="cryptui.dll,-3417"
+
+[HKEY_CLASSES_ROOT\CRLFile\shell]
+
+[HKEY_CLASSES_ROOT\CRLFile\shell\MK :-: In5tall CRL]
+"HasLUAShield"=""
+@="MK :-: In5tall CRL"
+
+[HKEY_CLASSES_ROOT\CRLFile\shell\MK :-: In5tall CRL\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,72,00,75,00,\
+  6e,00,64,00,6c,00,6c,00,33,00,32,00,2e,00,65,00,78,00,65,00,20,00,63,00,72,\
+  00,79,00,70,00,74,00,65,00,78,00,74,00,2e,00,64,00,6c,00,6c,00,2c,00,43,00,\
+  72,00,79,00,70,00,74,00,45,00,78,00,74,00,41,00,64,00,64,00,43,00,52,00,4c,\
+  00,20,00,25,00,31,00,00,00
+
+[HKEY_CLASSES_ROOT\CRLFile\shell\MK :-: Open File]
+"HasLUAShield"=""
+@="MK :-: Open File"
+
+[HKEY_CLASSES_ROOT\CRLFile\shell\MK :-: Open File\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,72,00,75,00,\
+  6e,00,64,00,6c,00,6c,00,33,00,32,00,2e,00,65,00,78,00,65,00,20,00,63,00,72,\
+  00,79,00,70,00,74,00,65,00,78,00,74,00,2e,00,64,00,6c,00,6c,00,2c,00,43,00,\
+  72,00,79,00,70,00,74,00,45,00,78,00,74,00,4f,00,70,00,65,00,6e,00,43,00,52,\
+  00,4c,00,20,00,25,00,31,00,00,00
+
+:: [ MK ™ Kontext Menu .Css ]
+
+[HKEY_CLASSES_ROOT\CSSfile]
+
+[HKEY_CLASSES_ROOT\CSSfile\shell]
+
+[HKEY_CLASSES_ROOT\CSSfile\shell\MK :-: Kopy Kontent]
+@="MK :-: Kopy Kontent"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\CSSfile\shell\MK :-: Kopy Kontent\command]
+@="cmd /c clip < \"%1\""
+
+:: [ MK ™ Kontext Menu Direcktory ]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory]
+"AlwaysShowExt"=""
+@="File Folder"
+"EditFlags"=hex:d2,01,00,00
+"FriendlyTypeName"="@shell32.dll,-10152"
+"FullDetails"="prop:System.PropGroup.Description;System.DateCreated;System.FileCount;System.TotalFileSize"
+"InfoTip"="prop:System.Comment;System.DateCreated"
+"NoRecentDocs"=""
+"PreviewDetails"="prop:System.DateModified;*System.SharedWith;*System.OfflineAvailability;*System.OfflineStatus"
+"PreviewTitle"="prop:System.ItemNameDisplay;System.ItemTypeText"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\Background]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\Background\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\Background\shell\MK :-: G Mode]
+@="MK :-: G Mode"
+"HasLUAShield"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\Background\shell\MK :-: G Mode\command]
+@="explorer /root, C:\\Program Files\\Common Files\\RBSoft\\Right Click Tweaker\\MK :-: G Mode.{ED7BA470-8E54-465E-825C-99712043E01C}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\Background\shell\cmd]
+@="@shell32.dll,-8506"
+"Extended"=""
+"NoWorkingDirectory"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\Background\shell\cmd\command]
+@="cmd.exe /s /k pushd \"%V\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\Background\shell\MK :-: Kontrol Panel]
+@="MK :-: Kontrol Panel"
+"HasLUAShield"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\Background\shell\MK :-: Kontrol Panel\command]
+@="rundll32.exe shell32.dll,Control_RunDLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\Background\shell\MK :-: Problem Rekorder]
+@="MK :-: Problem Rekorder"
+"HasLUAShield"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\Background\shell\MK :-: Problem Rekorder\command]
+@="C:\\Windows\\system32\\psr.exe"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\Background\shell\MK :-: 5yztem Konfiguration]
+@="MK :-: 5yztem Konfiguration"
+"HasLUAShield"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\Background\shell\MK :-: 5yztem Konfiguration\command]
+@="msconfig"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\Background\shell\windows.newfolder]
+"CanonicalName"="{E44616AD-6DF1-4B94-85A4-E465AE8A19DB}"
+"Icon"="shell32.dll,-319"
+"Description"="@shell32.dll,-31237"
+"InvokeCommandOnSelection"=dword:00000000
+"ImpliedSelectionModel"=dword:00000004
+"CommandStateHandler"="{3756e7f5-e514-4776-a32b-eb24bc1efe7a}"
+"CommandStateSync"=""
+"Position"="Last"
+@="MK :-: New Folder"
+"MUIVerb"="MK :-: New Folder"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\Background\shellex]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\Background\shellex\ContextMenuHandlers]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\Background\shellex\ContextMenuHandlers\New]
+@="{D969A300-E7FF-11d0-A93B-00A0C90F2719}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\Background\shellex\ContextMenuHandlers\Sharing]
+@="{f81e9010-6ea4-11ce-a7ff-00aa003ca9f6}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\DefaultIcon]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,73,00,68,00,\
+  65,00,6c,00,6c,00,33,00,32,00,2e,00,64,00,6c,00,6c,00,2c,00,33,00,00,00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell]
+@="none"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\cmd]
+@="@shell32.dll,-8506"
+"Extended"=""
+"NoWorkingDirectory"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\cmd\command]
+@="cmd.exe /s /k pushd \"%V\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\find]
+"LegacyDisable"=""
+"SuppressionPolicy"=dword:00000080
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\find\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,45,00,78,00,70,00,6c,00,6f,00,72,00,65,00,72,00,2e,00,65,00,78,00,\
+  65,00,00,00
+"DelegateExecute"="{a015411a-f97d-4ef3-8425-8a38d022aebc}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\ShellEx]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\ShellEx\ContextMenuHandlers]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\ShellEx\ContextMenuHandlers\EncryptionMenu]
+@="{A470F8CF-A1E8-4f65-8335-227475AA5C46}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\ShellEx\ContextMenuHandlers\Sharing]
+@="{f81e9010-6ea4-11ce-a7ff-00aa003ca9f6}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\ShellEx\CopyHookHandlers]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\ShellEx\CopyHookHandlers\FileSystem]
+@="{217FC9C0-3AEA-1069-A2DB-08002B30309D}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\ShellEx\CopyHookHandlers\Sharing]
+@="{40dd6e20-7c17-11ce-a804-00aa003ca9f6}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\ShellEx\PropertySheetHandlers]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\ShellEx\PropertySheetHandlers\Sharing]
+@="{f81e9010-6ea4-11ce-a7ff-00aa003ca9f6}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\ShellEx\PropertySheetHandlers\{ef43ecfe-2ab9-4632-bf21-58909dd177f0}]
+@=""
+
+:: [ MK ™ Kontext Menu Folder ]
+
+[HKEY_CLASSES_ROOT\folder]
+@="Folder"
+"EditFlags"=hex:d2,03,00,00
+"FullDetails"="prop:System.PropGroup.Description;System.ItemNameDisplay;System.ItemTypeText;System.Size"
+"NoRecentDocs"=""
+"ThumbnailCutoff"=dword:00000000
+"TileInfo"="prop:System.Title;System.ItemTypeText"
+
+[HKEY_CLASSES_ROOT\folder\DefaultIcon]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,73,00,68,00,\
+  65,00,6c,00,6c,00,33,00,32,00,2e,00,64,00,6c,00,6c,00,2c,00,33,00,00,00
+
+[HKEY_CLASSES_ROOT\folder\shell]
+
+[HKEY_CLASSES_ROOT\folder\shell\explore]
+"MultiSelectModel"="Document"
+"ProgrammaticAccessOnly"=""
+"LaunchExplorerFlags"=dword:00000018
+@=""
+
+[HKEY_CLASSES_ROOT\folder\shell\explore\command]
+"DelegateExecute"="{11dbb47c-a525-400b-9e80-a54615a090c0}"
+
+[HKEY_CLASSES_ROOT\folder\shell\MK :-: 5mart Renamer]
+@="MK :-: 5mart Renamer"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\folder\shell\MK :-: 5mart Renamer\command]
+@="\"C:\\Program Files\\Common Files\\RBSoft\\Right Click Tweaker\\Smart Renamer\\Smart Renamer.exe\" \"%1\""
+
+[HKEY_CLASSES_ROOT\folder\shell\MK :-: Kreate File Li5t]
+@="MK :-: Kreate File Li5t"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\folder\shell\MK :-: Kreate File Li5t\command]
+@="C:\\Program Files\\Common Files\\RBSoft\\Right Click Tweaker\\createFileList.bat \"%1\""
+
+[HKEY_CLASSES_ROOT\folder\shell\MK :-: Open File]
+"MultiSelectModel"="Document"
+@="MK :-: Open File"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\folder\shell\MK :-: Open File\command]
+"DelegateExecute"="{11dbb47c-a525-400b-9e80-a54615a090c0}"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,45,00,78,00,70,00,6c,00,6f,00,72,00,65,00,72,00,2e,00,65,00,78,00,\
+  65,00,00,00
+
+[HKEY_CLASSES_ROOT\folder\shell\MK :-: Open New Window]
+"MUIVerb"="MK :-: Open In New Window"
+"MultiSelectModel"="Document"
+"OnlyInBrowserWindow"=""
+"LaunchExplorerFlags"=dword:00000001
+@="MK :-: Open New Window"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\folder\shell\MK :-: Open New Window\command]
+"DelegateExecute"="{11dbb47c-a525-400b-9e80-a54615a090c0}"
+
+[HKEY_CLASSES_ROOT\folder\shell\MK :-: Print File Li5t]
+@="MK :-: Print File Li5t"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\folder\shell\MK :-: Print File Li5t\command]
+@="C:\\Program Files\\Common Files\\RBSoft\\Right Click Tweaker\\printFileList.bat \"%1\""
+
+[HKEY_CLASSES_ROOT\folder\shell\MK :-: Take Own]
+@="MK :-: Take Own"
+"NoWorkingDirectory"=""
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\folder\shell\MK :-: Take Own\command]
+@="cmd.exe /c takeown /f \"%1\" /r /d y && icacls \"%1\" /grant administrators:F /t"
+"IsolatedCommand"="cmd.exe /c takeown /f \"%1\" /r /d y && icacls \"%1\" /grant administrators:F /t"
+
+[HKEY_CLASSES_ROOT\folder\shell\opennewprocess]
+"MUIVerb"="@shell32.dll,-8518"
+"MultiSelectModel"="Document"
+"Extended"=""
+"LaunchExplorerFlags"=dword:00000003
+"ExplorerHost"="{ceff45ee-c862-41de-aee2-a022c81eda92}"
+@=""
+
+[HKEY_CLASSES_ROOT\folder\shell\opennewprocess\command]
+"DelegateExecute"="{11dbb47c-a525-400b-9e80-a54615a090c0}"
+
+[HKEY_CLASSES_ROOT\folder\ShellEx]
+
+[HKEY_CLASSES_ROOT\folder\ShellEx\ContextMenuHandlers]
+
+[HKEY_CLASSES_ROOT\folder\ShellEx\ContextMenuHandlers\Library Location]
+@="{3dad6c5d-2167-4cae-9914-f99e41c12cfa}"
+
+[HKEY_CLASSES_ROOT\folder\ShellNew]
+"Directory"=""
+"IconPath"=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,\
+  74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,73,\
+  00,68,00,65,00,6c,00,6c,00,33,00,32,00,2e,00,64,00,6c,00,6c,00,2c,00,33,00,\
+  00,00
+"ItemName"="@shell32.dll,-30396"
+"MenuText"="@shell32.dll,-30317"
+"NonLFNFileSpec"="@shell32.dll,-30319"
+
+[HKEY_CLASSES_ROOT\folder\ShellNew\Config]
+"AllDrives"=""
+"IsFolder"=""
+"NoExtension"=""
+
+:: [ MK ™ Kontext Menu .Html ]
+
+[HKEY_CLASSES_ROOT\htmlfile]
+
+[HKEY_CLASSES_ROOT\htmlfile\ScriptHostEncode]
+@="{0CF774D0-F077-11D1-B1BC-00C04F86C324}"
+
+[HKEY_CLASSES_ROOT\htmlfile\shell]
+
+[HKEY_CLASSES_ROOT\htmlfile\shell\MK :-: Kopy Kontent]
+@="MK :-: Kopy Kontent"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\htmlfile\shell\MK :-: Kopy Kontent\command]
+@="cmd /c clip < \"%1\""
+
+:: [ MK ™ Kontext Menu .Inf ]
+
+[HKEY_CLASSES_ROOT\inffile]
+@="Setup Information"
+"FriendlyTypeName"=hex(2):40,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,\
+  00,6f,00,6f,00,74,00,25,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,\
+  32,00,5c,00,73,00,65,00,74,00,75,00,70,00,61,00,70,00,69,00,2e,00,64,00,6c,\
+  00,6c,00,2c,00,2d,00,32,00,30,00,30,00,30,00,00,00
+
+[HKEY_CLASSES_ROOT\inffile\DefaultIcon]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,69,00,6d,00,\
+  61,00,67,00,65,00,72,00,65,00,73,00,2e,00,64,00,6c,00,6c,00,2c,00,2d,00,36,\
+  00,39,00,00,00
+
+[HKEY_CLASSES_ROOT\inffile\shell]
+
+[HKEY_CLASSES_ROOT\inffile\shell\MK :-: In5tall]
+@="MK :-: In5tall"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\inffile\shell\MK :-: In5tall\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,49,00,6e,00,\
+  66,00,44,00,65,00,66,00,61,00,75,00,6c,00,74,00,49,00,6e,00,73,00,74,00,61,\
+  00,6c,00,6c,00,2e,00,65,00,78,00,65,00,20,00,22,00,25,00,31,00,22,00,00,00
+
+[HKEY_CLASSES_ROOT\inffile\shell\MK :-: Open File]
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\inffile\shell\MK :-: Open File\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,4e,00,4f,00,\
+  54,00,45,00,50,00,41,00,44,00,2e,00,45,00,58,00,45,00,20,00,25,00,31,00,00,\
+  00
+
+[HKEY_CLASSES_ROOT\inffile\shell\MK :-: Print File]
+@="MK :-: Print File"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\inffile\shell\MK :-: Print File\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,4e,00,4f,00,\
+  54,00,45,00,50,00,41,00,44,00,2e,00,45,00,58,00,45,00,20,00,2f,00,70,00,20,\
+  00,25,00,31,00,00,00
+
+:: [ MK ™ Kontext Menu .Ini ]
+
+[HKEY_CLASSES_ROOT\inifile]
+@="Configuration Settings"
+"FriendlyTypeName"="@shell32.dll,-10151"
+
+[HKEY_CLASSES_ROOT\inifile\DefaultIcon]
+@="imageres.dll,-69"
+
+[HKEY_CLASSES_ROOT\inifile\shell]
+
+[HKEY_CLASSES_ROOT\inifile\shell\MK :-: Kopy Kontent]
+@="MK :-: Kopy Kontent"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\inifile\shell\MK :-: Kopy Kontent\command]
+@="cmd /c clip < \"%1\""
+
+[HKEY_CLASSES_ROOT\inifile\shell\MK :-: Open File]
+@="MK :-: Open File"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\inifile\shell\MK :-: Open File\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,4e,00,4f,00,\
+  54,00,45,00,50,00,41,00,44,00,2e,00,45,00,58,00,45,00,20,00,25,00,31,00,00,\
+  00
+
+[HKEY_CLASSES_ROOT\inifile\shell\MK :-: Print File]
+@="MK :-: Print File"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\inifile\shell\MK :-: Print File\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,4e,00,4f,00,\
+  54,00,45,00,50,00,41,00,44,00,2e,00,45,00,58,00,45,00,20,00,2f,00,70,00,20,\
+  00,25,00,31,00,00,00
+
+:: [ MK ™ Kontext Menu .Js ]
+
+[HKEY_CLASSES_ROOT\JSFile]
+@="JScript Script File"
+
+[HKEY_CLASSES_ROOT\JSFile\DefaultIcon]
+@="X:\\Windows\\System32\\WScript.exe,3"
+
+[HKEY_CLASSES_ROOT\JSFile\ScriptEngine]
+@="JScript"
+
+[HKEY_CLASSES_ROOT\JSFile\ScriptHostEncode]
+@="{85131630-480C-11D2-B1F9-00C04F86C324}"
+
+[HKEY_CLASSES_ROOT\JSFile\Shell]
+@="Open"
+
+[HKEY_CLASSES_ROOT\JSFile\Shell\MK :-: Edit File]
+@="MK :-: Edit File"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\JSFile\Shell\MK :-: Edit File\Command]
+@="X:\\Windows\\System32\\Notepad.exe %1"
+
+[HKEY_CLASSES_ROOT\JSFile\Shell\MK :-: Kopy Kontent]
+@="MK :-: Kopy Kontent"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\JSFile\Shell\MK :-: Kopy Kontent\command]
+@="cmd /c clip < \"%1\""
+
+[HKEY_CLASSES_ROOT\JSFile\Shell\MK :-: Open File]
+@="MK :-: Open File"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\JSFile\Shell\MK :-: Open File\Command]
+@="X:\\Windows\\System32\\WScript.exe \"%1\" %*"
+
+[HKEY_CLASSES_ROOT\*\shell\MK :-: Open In Kommand Prompt]
+@="MK :-: Open In Kommand Prompt"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\*\shell\MK :-: Open In Kommand Prompt\command]
+@="cmd.exe /k cd \"%1\"*"
+"IsolatedCommand"="cmd.exe /k cd \"%1\"*"
+
+
+[HKEY_CLASSES_ROOT\JSFile\Shell\MK :-: Print File]
+@="MK :-: Print File"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\JSFile\Shell\MK :-: Print File\Command]
+@="X:\\Windows\\System32\\Notepad.exe /p %1"
+
+:: [ MK ™ Kontext Menu .Jse ]
+
+[HKEY_CLASSES_ROOT\JSEFile]
+@="JScript Encoded File"
+
+[HKEY_CLASSES_ROOT\JSEFile\DefaultIcon]
+@="X:\\Windows\\System32\\WScript.exe,3"
+
+[HKEY_CLASSES_ROOT\JSEFile\ScriptEngine]
+@="JScript.Encode"
+
+[HKEY_CLASSES_ROOT\JSEFile\Shell]
+@="Open"
+
+[HKEY_CLASSES_ROOT\JSEFile\Shell\MK :-: Edit File]
+@="MK :-: Edit File"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\JSEFile\Shell\MK :-: Edit File\Command]
+@="X:\\Windows\\System32\\Notepad.exe %1"
+
+[HKEY_CLASSES_ROOT\JSEFile\Shell\MK :-: Open File]
+@="MK :-: Open File"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\JSEFile\Shell\MK :-: Open File\Command]
+@="X:\\Windows\\System32\\WScript.exe \"%1\" %*"
+
+[HKEY_CLASSES_ROOT\*\shell\MK :-: Open In Kommand Prompt]
+@="MK :-: Open In Kommand Prompt"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\*\shell\MK :-: Open In Kommand Prompt\command]
+@="cmd.exe /k cd \"%1\"*"
+"IsolatedCommand"="cmd.exe /k cd \"%1\"*"
+
+
+[HKEY_CLASSES_ROOT\JSEFile\Shell\MK :-: Print File]
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\JSEFile\Shell\MK :-: Print File\Command]
+@="X:\\Windows\\System32\\Notepad.exe /p %1"
+
+[HKEY_CLASSES_ROOT\JSEFile\Shell\MK :-: Open In C$kript]
+@="MK :-: Open &In C$kript"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\JSEFile\Shell\MK :-: Open In C$kript\Command]
+@="X:\\Windows\\System32\\CScript.exe \"%1\" %*"
+
+:: [ MK ™ Kontext Menu Notepad ]
+
+[HKEY_CLASSES_ROOT\Applications\notepad.exe]
+
+[HKEY_CLASSES_ROOT\Applications\notepad.exe\shell]
+
+[HKEY_CLASSES_ROOT\Applications\notepad.exe\shell\MK :-: Edit In Notepad]
+@="MK :-: Edit In Notepad"
+
+[HKEY_CLASSES_ROOT\Applications\notepad.exe\shell\MK :-: Edit In Notepad\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,4e,00,4f,00,\
+  54,00,45,00,50,00,41,00,44,00,2e,00,45,00,58,00,45,00,20,00,25,00,31,00,00,\
+  00
+
+[HKEY_CLASSES_ROOT\Applications\notepad.exe\shell\MK :-: Open File]
+@="MK :-: Open File"
+
+[HKEY_CLASSES_ROOT\Applications\notepad.exe\shell\MK :-: Open File\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,4e,00,4f,00,\
+  54,00,45,00,50,00,41,00,44,00,2e,00,45,00,58,00,45,00,20,00,25,00,31,00,00,\
+  00
+
+:: [ MK ™ Kontext Menu .P7r ]
+
+[HKEY_CLASSES_ROOT\P7RFile]
+@="Certificate Request Response"
+"FriendlyTypeName"="@cryptext.dll,-6140"
+
+[HKEY_CLASSES_ROOT\P7RFile\DefaultIcon]
+@="cryptui.dll,-3410"
+
+[HKEY_CLASSES_ROOT\P7RFile\shell]
+
+[HKEY_CLASSES_ROOT\P7RFile\shell\MK :-: In5tall Certifikate]
+"HasLUAShield"=""
+@="MK :-: In5tall Certifikate"
+
+[HKEY_CLASSES_ROOT\P7RFile\shell\MK :-: In5tall Certifikate\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,72,00,75,00,\
+  6e,00,64,00,6c,00,6c,00,33,00,32,00,2e,00,65,00,78,00,65,00,20,00,63,00,72,\
+  00,79,00,70,00,74,00,65,00,78,00,74,00,2e,00,64,00,6c,00,6c,00,2c,00,43,00,\
+  72,00,79,00,70,00,74,00,45,00,78,00,74,00,41,00,64,00,64,00,50,00,37,00,52,\
+  00,20,00,25,00,31,00,00,00
+
+[HKEY_CLASSES_ROOT\P7RFile\shell\MK :-: Open File]
+@="MK :-: Open File"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\P7RFile\shell\MK :-: Open File\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,72,00,75,00,\
+  6e,00,64,00,6c,00,6c,00,33,00,32,00,2e,00,65,00,78,00,65,00,20,00,63,00,72,\
+  00,79,00,70,00,74,00,65,00,78,00,74,00,2e,00,64,00,6c,00,6c,00,2c,00,43,00,\
+  72,00,79,00,70,00,74,00,45,00,78,00,74,00,4f,00,70,00,65,00,6e,00,50,00,37,\
+  00,52,00,20,00,25,00,31,00,00,00
+
+:: [ MK ™ Kontext Menu .Pbk ]
+
+[HKEY_CLASSES_ROOT\pbkfile]
+@="Dial-Up Phonebook"
+"FriendlyTypeName"=hex(2):40,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,\
+  00,6f,00,6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,\
+  32,00,5c,00,72,00,61,00,73,00,64,00,6c,00,67,00,2e,00,64,00,6c,00,6c,00,2c,\
+  00,2d,00,33,00,35,00,33,00,00,00
+
+[HKEY_CLASSES_ROOT\pbkfile\DefaultIcon]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,72,00,61,00,\
+  73,00,64,00,6c,00,67,00,2e,00,64,00,6c,00,6c,00,2c,00,2d,00,35,00,36,00,32,\
+  00,00,00
+
+[HKEY_CLASSES_ROOT\pbkfile\Shell]
+
+[HKEY_CLASSES_ROOT\pbkfile\Shell\MK :-: Open File]
+@="MK :-: Open File"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\pbkfile\Shell\MK :-: Open File\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,72,00,61,00,\
+  73,00,70,00,68,00,6f,00,6e,00,65,00,2e,00,65,00,78,00,65,00,20,00,2d,00,66,\
+  00,20,00,22,00,25,00,31,00,22,00,00,00
+
+:: [ MK ™ Kontext Menu .Pfx ]
+
+[HKEY_CLASSES_ROOT\PFXFile]
+@="Personal Information Exchange"
+"FriendlyTypeName"="@cryptext.dll,-6148"
+
+[HKEY_CLASSES_ROOT\PFXFile\DefaultIcon]
+@="cryptui.dll,-3425"
+
+[HKEY_CLASSES_ROOT\PFXFile\shell]
+
+[HKEY_CLASSES_ROOT\PFXFile\shell\MK :-: In5tall PFX]
+@="MK :-: In5tall PFX"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\PFXFile\shell\MK :-: In5tall PFX\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,72,00,75,00,\
+  6e,00,64,00,6c,00,6c,00,33,00,32,00,2e,00,65,00,78,00,65,00,20,00,63,00,72,\
+  00,79,00,70,00,74,00,65,00,78,00,74,00,2e,00,64,00,6c,00,6c,00,2c,00,43,00,\
+  72,00,79,00,70,00,74,00,45,00,78,00,74,00,41,00,64,00,64,00,50,00,46,00,58,\
+  00,20,00,25,00,31,00,00,00
+
+:: [ MK ™ Kontext Menu .Pif ]
+
+[HKEY_CLASSES_ROOT\piffile]
+@="Shortcut to MS-DOS Program"
+"EditFlags"=hex:01,00,00,00
+"IsShortcut"=""
+"NeverShowExt"=""
+
+[HKEY_CLASSES_ROOT\piffile\shell]
+
+[HKEY_CLASSES_ROOT\piffile\shell\MK :-: Open File]
+@="MK :-: Open File"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\piffile\shell\MK :-: Open File\command]
+@="\"%1\" %*"
+
+[HKEY_CLASSES_ROOT\piffile\shellex]
+
+[HKEY_CLASSES_ROOT\piffile\shellex\DropHandler]
+@="{86C86720-42A0-1069-A2E8-08002B30309D}"
+
+[HKEY_CLASSES_ROOT\piffile\shellex\IconHandler]
+@="{00021401-0000-0000-C000-000000000046}"
+
+[HKEY_CLASSES_ROOT\piffile\shellex\PropertySheetHandlers]
+
+[HKEY_CLASSES_ROOT\piffile\shellex\PropertySheetHandlers\PifProps]
+@="{86F19A00-42A0-1069-A2E9-08002B30309D}"
+
+:: [ MK ™ Kontext Menu .Reg ]
+
+[HKEY_CLASSES_ROOT\regfile]
+"EditFlags"=dword:00100000
+@="Registration Entries"
+"FriendlyTypeName"=hex(2):40,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,\
+  00,6f,00,6f,00,74,00,25,00,5c,00,72,00,65,00,67,00,65,00,64,00,69,00,74,00,\
+  2e,00,65,00,78,00,65,00,2c,00,2d,00,33,00,30,00,39,00,00,00
+
+[HKEY_CLASSES_ROOT\regfile\DefaultIcon]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,72,00,65,00,67,00,65,00,64,00,69,00,74,00,2e,00,65,00,78,00,65,00,\
+  2c,00,31,00,00,00
+
+[HKEY_CLASSES_ROOT\regfile\shell]
+
+[HKEY_CLASSES_ROOT\regfile\shell\MK :-: Edit File]
+@="MK :-: Edit File"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\regfile\shell\MK :-: Edit File\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,6e,00,6f,00,\
+  74,00,65,00,70,00,61,00,64,00,2e,00,65,00,78,00,65,00,20,00,22,00,25,00,31,\
+  00,22,00,00,00
+
+[HKEY_CLASSES_ROOT\regfile\shell\MK :-: Kopy Kontent]
+@="MK :-: Kopy Kontent"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\regfile\shell\MK :-: Kopy Kontent\command]
+@="cmd /c clip < \"%1\""
+
+[HKEY_CLASSES_ROOT\regfile\shell\MK :-: Merge File]
+@="MK :-: Merge File"
+"MUIVerb"=hex(2):40,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,\
+  6f,00,74,00,25,00,5c,00,72,00,65,00,67,00,65,00,64,00,69,00,74,00,2e,00,65,\
+  00,78,00,65,00,2c,00,2d,00,33,00,31,00,35,00,00,00
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\regfile\shell\MK :-: Merge File\command]
+@="regedit.exe \"%1\""
+
+[HKEY_CLASSES_ROOT\regfile\shell\MK :-: Print File]
+"HasLUAShield"=""
+@="MK :-: Print File"
+
+[HKEY_CLASSES_ROOT\regfile\shell\MK :-: Print File\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,6e,00,6f,00,\
+  74,00,65,00,70,00,61,00,64,00,2e,00,65,00,78,00,65,00,20,00,2f,00,70,00,20,\
+  00,22,00,25,00,31,00,22,00,00,00
+
+[HKEY_CLASSES_ROOT\regfile\ShellEx]
+
+[HKEY_CLASSES_ROOT\regfile\ShellEx\{8895b1c6-b41f-4c1c-a562-0d564250836f}]
+@="{1531d583-8375-4d3f-b5fb-d23bbd169f22}"
+
+:: [ MK ™ Kontext Menu RegEdit ]
+
+[HKEY_CLASSES_ROOT\regedit]
+@="Registration Entries"
+
+[HKEY_CLASSES_ROOT\regedit\shell]
+
+[HKEY_CLASSES_ROOT\regedit\shell\MK :-: Open File]
+"HasLUAShield"=""
+@="MK :-: Open File"
+
+[HKEY_CLASSES_ROOT\regedit\shell\MK :-: Open File\command]
+@="regedit.exe \"%1\""
+
+:: [ MK ™ Kontext Menu .Rtf ]
+
+[HKEY_CLASSES_ROOT\rtffile]
+
+[HKEY_CLASSES_ROOT\rtffile\shell]
+
+[HKEY_CLASSES_ROOT\rtffile\shell\MK :-: Kopy Kontent]
+@="MK :-: Kopy Kontent"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\rtffile\shell\MK :-: Kopy Kontent\command]
+@="cmd /c clip < \"%1\""
+
+[HKEY_CLASSES_ROOT\rtffile\ShellEx]
+
+[HKEY_CLASSES_ROOT\rtffile\ShellEx\{8895b1c6-b41f-4c1c-a562-0d564250836f}]
+@="{a42c2ccb-67d3-46fa-abe6-7d2f3488c7a3}"
+
+:: [ MK ™ Kontext Menu .Shcmd ]
+
+[HKEY_CLASSES_ROOT\SHCmdFile]
+@="Windows Explorer Command"
+"NeverShowExt"=""
+
+[HKEY_CLASSES_ROOT\SHCmdFile\CLSID]
+@="{57651662-CE3E-11D0-8D77-00C04FC99D61}"
+
+[HKEY_CLASSES_ROOT\SHCmdFile\shell]
+
+[HKEY_CLASSES_ROOT\SHCmdFile\shell\MK :-: Open File]
+@="@cryptext.dll,-6147"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\SHCmdFile\shell\MK :-: Open File\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,65,00,78,00,70,00,6c,00,6f,00,72,00,65,00,72,00,2e,00,65,00,78,00,\
+  65,00,00,00
+"DelegateExecute"="{6DA736C9-DCDE-4651-82A8-56E4EF1D8DD7}"
+
+[HKEY_CLASSES_ROOT\SHCmdFile\shellex]
+
+[HKEY_CLASSES_ROOT\SHCmdFile\shellex\DropHandler]
+@="{86C86720-42A0-1069-A2E8-08002B30309D}"
+
+[HKEY_CLASSES_ROOT\SHCmdFile\shellex\IconHandler]
+@="{57651662-CE3E-11D0-8D77-00C04FC99D61}"
+
+:: [ MK ™ Kontext Menu .Spc ]
+
+[HKEY_CLASSES_ROOT\SPCFile]
+@="PKCS #7 Certificates"
+"FriendlyTypeName"="@cryptext.dll,-6111"
+
+[HKEY_CLASSES_ROOT\SPCFile\DefaultIcon]
+@="cryptui.dll,-3410"
+
+[HKEY_CLASSES_ROOT\SPCFile\shell]
+
+[HKEY_CLASSES_ROOT\SPCFile\shell\MK :-: In5tall Certifikate]
+"HasLUAShield"=""
+@="MK :-: In5tall Certifikate"
+
+[HKEY_CLASSES_ROOT\SPCFile\shell\MK :-: In5tall Certifikate\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,72,00,75,00,\
+  6e,00,64,00,6c,00,6c,00,33,00,32,00,2e,00,65,00,78,00,65,00,20,00,63,00,72,\
+  00,79,00,70,00,74,00,65,00,78,00,74,00,2e,00,64,00,6c,00,6c,00,2c,00,43,00,\
+  72,00,79,00,70,00,74,00,45,00,78,00,74,00,41,00,64,00,64,00,53,00,50,00,43,\
+  00,20,00,25,00,31,00,00,00
+
+[HKEY_CLASSES_ROOT\SPCFile\shell\MK :-: Open File]
+"HasLUAShield"=""
+@="MK :-: Open File"
+
+[HKEY_CLASSES_ROOT\SPCFile\shell\MK :-: Open File\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,72,00,75,00,\
+  6e,00,64,00,6c,00,6c,00,33,00,32,00,2e,00,65,00,78,00,65,00,20,00,63,00,72,\
+  00,79,00,70,00,74,00,65,00,78,00,74,00,2e,00,64,00,6c,00,6c,00,2c,00,43,00,\
+  72,00,79,00,70,00,74,00,45,00,78,00,74,00,4f,00,70,00,65,00,6e,00,50,00,4b,\
+  00,43,00,53,00,37,00,20,00,25,00,31,00,00,00
+
+:: [ MK ™ Kontext Menu Text ]
+
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\text]
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\text\DefaultIcon]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,69,00,6d,00,\
+  61,00,67,00,65,00,72,00,65,00,73,00,2e,00,64,00,6c,00,6c,00,2c,00,2d,00,31,\
+  00,30,00,32,00,00,00
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\text\OpenWithList]
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\text\OpenWithList\Notepad.exe]
+@=""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\text\shell]
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\text\shell\MK :-: Edit File]
+@="MK :-: Edit File"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\text\shell\MK :-: Edit File\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,4e,00,4f,00,\
+  54,00,45,00,50,00,41,00,44,00,2e,00,45,00,58,00,45,00,20,00,25,00,31,00,00,\
+  00
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\text\shell\MK :-: Open File]
+@="MK :-: Open File"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\text\shell\MK :-: Open File\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,4e,00,4f,00,\
+  54,00,45,00,50,00,41,00,44,00,2e,00,45,00,58,00,45,00,20,00,25,00,31,00,00,\
+  00
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\text\ShellEx]
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\text\ShellEx\{8895b1c6-b41f-4c1c-a562-0d564250836f}]
+@="{1531d583-8375-4d3f-b5fb-d23bbd169f22}"
+
+:: [ MK ™ Kontext Menu .Vbs ]
+
+[HKEY_CLASSES_ROOT\VBSFile]
+@="VBScript Script File"
+
+[HKEY_CLASSES_ROOT\VBSFile\DefaultIcon]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,57,00,53,00,\
+  63,00,72,00,69,00,70,00,74,00,2e,00,65,00,78,00,65,00,2c,00,32,00,00,00
+
+[HKEY_CLASSES_ROOT\VBSFile\ScriptEngine]
+@="VBScript"
+
+[HKEY_CLASSES_ROOT\VBSFile\ScriptHostEncode]
+@="{85131631-480C-11D2-B1F9-00C04F86C324}"
+
+[HKEY_CLASSES_ROOT\VBSFile\Shell]
+@="Open"
+
+[HKEY_CLASSES_ROOT\VBSFile\Shell\MK :-: Edit File]
+@="MK :-: Edit File"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\VBSFile\Shell\MK :-: Edit File\Command]
+@=hex(2):22,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,\
+  00,25,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,4e,00,\
+  6f,00,74,00,65,00,70,00,61,00,64,00,2e,00,65,00,78,00,65,00,22,00,20,00,25,\
+  00,31,00,00,00
+
+[HKEY_CLASSES_ROOT\VBSFile\Shell\MK :-: Kopy Kontent]
+@="MK :-: Kopy Kontent"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\VBSFile\Shell\MK :-: Kopy Kontent\command]
+@="cmd /c clip < \"%1\""
+
+[HKEY_CLASSES_ROOT\VBSFile\Shell\MK :-: Open File]
+@="MK :-: Open File"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\VBSFile\Shell\MK :-: Open File\Command]
+@=hex(2):22,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,\
+  00,25,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,57,00,\
+  53,00,63,00,72,00,69,00,70,00,74,00,2e,00,65,00,78,00,65,00,22,00,20,00,22,\
+  00,25,00,31,00,22,00,20,00,25,00,2a,00,00,00
+
+[HKEY_CLASSES_ROOT\VBSFile\Shell\MK :-: Open In Kommand Prompt]
+@=hex(2):4d,00,4b,00,20,00,3a,00,2d,00,3a,00,20,00,4f,00,70,00,65,00,6e,00,20,\
+  00,49,00,6e,00,20,00,4b,00,6f,00,6d,00,6d,00,61,00,6e,00,64,00,20,00,50,00,\
+  72,00,6f,00,6d,00,70,00,74,00,00,00
+"MUIVerb"=hex(2):40,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,\
+  6f,00,74,00,25,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,\
+  00,77,00,73,00,68,00,65,00,78,00,74,00,2e,00,64,00,6c,00,6c,00,2c,00,2d,00,\
+  34,00,35,00,31,00,31,00,00,00
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\VBSFile\Shell\MK :-: Open In Kommand Prompt\Command]
+@=hex(2):22,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,\
+  00,25,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,43,00,\
+  53,00,63,00,72,00,69,00,70,00,74,00,2e,00,65,00,78,00,65,00,22,00,20,00,22,\
+  00,25,00,31,00,22,00,20,00,25,00,2a,00,00,00
+
+[HKEY_CLASSES_ROOT\VBSFile\Shell\MK :-: Print File]
+@="MK :-: Print File"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\VBSFile\Shell\MK :-: Print File\Command]
+@=hex(2):22,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,\
+  00,25,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,4e,00,\
+  6f,00,74,00,65,00,70,00,61,00,64,00,2e,00,65,00,78,00,65,00,22,00,20,00,2f,\
+  00,70,00,20,00,25,00,31,00,00,00
+
+:: [ MK ™ Kontext Menu .Wsh ]
+
+[HKEY_CLASSES_ROOT\WSHFile]
+@="Windows Script Host Settings File"
+"IsShortcut"="Yes"
+
+[HKEY_CLASSES_ROOT\WSHFile\DefaultIcon]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,57,00,53,00,\
+  63,00,72,00,69,00,70,00,74,00,2e,00,65,00,78,00,65,00,2c,00,31,00,00,00
+
+[HKEY_CLASSES_ROOT\WSHFile\Shell]
+@="Open"
+
+[HKEY_CLASSES_ROOT\WSHFile\Shell\MK :-: Open File]
+@="MK :-: Open File"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\WSHFile\Shell\MK :-: Open File\Command]
+@=hex(2):22,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,\
+  00,25,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,57,00,\
+  53,00,63,00,72,00,69,00,70,00,74,00,2e,00,65,00,78,00,65,00,22,00,20,00,22,\
+  00,25,00,31,00,22,00,20,00,25,00,2a,00,00,00
+
+[HKEY_CLASSES_ROOT\WSHFile\Shell\MK :-: Open In Kommand Prompt]
+@="MK :-: Open In Kommand Prompt"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\WSHFile\Shell\MK :-: Open In Kommand Prompt\Command]
+@=hex(2):22,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,\
+  00,25,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,43,00,\
+  53,00,63,00,72,00,69,00,70,00,74,00,2e,00,65,00,78,00,65,00,22,00,20,00,22,\
+  00,25,00,31,00,22,00,20,00,25,00,2a,00,00,00
+
+:: [ MK ™ Kontext Menu .Xml ]
+
+[HKEY_CLASSES_ROOT\xmlfile]
+@="XML Document"
+"EditFlags"=hex:00,00,01,00
+"FriendlyTypeName"=hex(2):40,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,\
+  00,6f,00,6f,00,74,00,25,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,\
+  32,00,5c,00,6d,00,73,00,78,00,6d,00,6c,00,33,00,72,00,2e,00,64,00,6c,00,6c,\
+  00,2c,00,2d,00,31,00,00,00
+
+[HKEY_CLASSES_ROOT\xmlfile\BrowseInPlace]
+
+[HKEY_CLASSES_ROOT\xmlfile\CLSID]
+@="{48123BC4-99D9-11D1-A6B3-00C04FD91555}"
+
+[HKEY_CLASSES_ROOT\xmlfile\DefaultIcon]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,6d,00,73,00,\
+  78,00,6d,00,6c,00,33,00,2e,00,64,00,6c,00,6c,00,2c,00,30,00,00,00
+
+[HKEY_CLASSES_ROOT\xmlfile\shell]
+
+[HKEY_CLASSES_ROOT\xmlfile\shell\MK :-: Open In Browzer]
+"HasLUAShield"=""
+@="MK :-: Open In Browzer"
+
+[HKEY_CLASSES_ROOT\xmlfile\shell\MK :-: Open In Browzer\command]
+@=hex(2):22,00,58,00,3a,00,5c,00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,20,\
+  00,46,00,69,00,6c,00,65,00,73,00,5c,00,49,00,6e,00,74,00,65,00,72,00,6e,00,\
+  65,00,74,00,20,00,45,00,78,00,70,00,6c,00,6f,00,72,00,65,00,72,00,5c,00,69,\
+  00,65,00,78,00,70,00,6c,00,6f,00,72,00,65,00,2e,00,65,00,78,00,65,00,22,00,\
+  20,00,2d,00,6e,00,6f,00,68,00,6f,00,6d,00,65,00,00,00
+
+[HKEY_CLASSES_ROOT\xmlfile\shell\MK :-: Open In Browzer\ddeexec]
+@="\"file:%1\",,-1,,,,,"
+
+[HKEY_CLASSES_ROOT\xmlfile\shell\MK :-: Open In Browzer\ddeexec\application]
+@="IExplore"
+
+[HKEY_CLASSES_ROOT\xmlfile\shell\MK :-: Open In Browzer\ddeexec\topic]
+@="WWW_OpenURL"
+
+:: [ MK ™ Kontext Menu .Xsl ]
+
+[HKEY_CLASSES_ROOT\xslfile]
+@="XSL Stylesheet"
+"EditFlags"=hex:00,00,01,00
+"FriendlyTypeName"=hex(2):40,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,\
+  00,6f,00,6f,00,74,00,25,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,\
+  32,00,5c,00,6d,00,73,00,78,00,6d,00,6c,00,33,00,72,00,2e,00,64,00,6c,00,6c,\
+  00,2c,00,2d,00,32,00,00,00
+
+[HKEY_CLASSES_ROOT\xslfile\BrowseInPlace]
+
+[HKEY_CLASSES_ROOT\xslfile\CLSID]
+@="{48123BC4-99D9-11D1-A6B3-00C04FD91555}"
+
+[HKEY_CLASSES_ROOT\xslfile\DefaultIcon]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,6d,00,73,00,\
+  78,00,6d,00,6c,00,33,00,2e,00,64,00,6c,00,6c,00,2c,00,31,00,00,00
+
+[HKEY_CLASSES_ROOT\xslfile\shell]
+
+[HKEY_CLASSES_ROOT\xslfile\shell\MK :-: Open In Browzer]
+@="MK :-: Open In Browzer"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\xslfile\shell\MK :-: Open In Browzer\command]
+@=hex(2):22,00,58,00,3a,00,5c,00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,20,\
+  00,46,00,69,00,6c,00,65,00,73,00,5c,00,49,00,6e,00,74,00,65,00,72,00,6e,00,\
+  65,00,74,00,20,00,45,00,78,00,70,00,6c,00,6f,00,72,00,65,00,72,00,5c,00,69,\
+  00,65,00,78,00,70,00,6c,00,6f,00,72,00,65,00,2e,00,65,00,78,00,65,00,22,00,\
+  20,00,2d,00,6e,00,6f,00,68,00,6f,00,6d,00,65,00,00,00
+
+[HKEY_CLASSES_ROOT\xslfile\shell\MK :-: Open In Browzer\ddeexec]
+@="\"file:%1\",,-1,,,,,"
+
+[HKEY_CLASSES_ROOT\xslfile\shell\MK :-: Open In Browzer\ddeexec\application]
+@="IExplore"
+
+[HKEY_CLASSES_ROOT\xslfile\shell\MK :-: Open In Browzer\ddeexec\topic]
+@="WWW_OpenURL"
+
+:: [ MK ™ $kriptlet File ]
+
+[HKEY_CLASSES_ROOT\scriptletfile]
+@="Windows Script Component"
+
+[HKEY_CLASSES_ROOT\scriptletfile\AutoRegister]
+@="X:\\Windows\\System32\\scrobj.dll"
+
+[HKEY_CLASSES_ROOT\scriptletfile\CLSID]
+@="{06290BD2-48AA-11D2-8432-006008C3FBFC}"
+
+[HKEY_CLASSES_ROOT\scriptletfile\DefaultIcon]
+@="X:\\Windows\\System32\\scrobj.dll,0"
+
+[HKEY_CLASSES_ROOT\scriptletfile\ScriptHostEncode]
+@="{06290BD4-48AA-11D2-8432-006008C3FBFC}"
+
+[HKEY_CLASSES_ROOT\scriptletfile\Shell]
+
+[HKEY_CLASSES_ROOT\scriptletfile\Shell\MK :-: Generate Typelib]
+@="MK :-: &Generate Typelib"
+
+[HKEY_CLASSES_ROOT\scriptletfile\Shell\MK :-: Generate Typelib\command]
+@="\"X:\\Windows\\System32\\RUNDLL32.EXE\" \"X:\\Windows\\System32\\scrobj.dll\",GenerateTypeLib \"%1\""
+
+[HKEY_CLASSES_ROOT\scriptletfile\Shell\MK :-: Open]
+@="MK :-: &Open"
+
+[HKEY_CLASSES_ROOT\scriptletfile\Shell\MK :-: Open\command]
+@="\"X:\\Windows\\System32\\NOTEPAD.EXE\" \"%1\""
+
+[HKEY_CLASSES_ROOT\scriptletfile\Shell\MK :-: Regizter]
+@="MK :-: &Regizter"
+
+[HKEY_CLASSES_ROOT\scriptletfile\Shell\MK :-: Regizter\command]
+@="\"X:\\Windows\\System32\\REGSVR32.EXE\" /i:\"%1\" \"X:\\Windows\\System32\\scrobj.dll\""
+
+[HKEY_CLASSES_ROOT\scriptletfile\Shell\MK :-: Unregizter]
+@="MK :-: &Unregizter"
+
+[HKEY_CLASSES_ROOT\scriptletfile\Shell\MK :-: Unregizter\command]
+@="\"X:\\Windows\\System32\\REGSVR32.EXE\" /u /n /i:\"%1\" \"X:\\Windows\\System32\\scrobj.dll\""
+
+:: [ MK ™ $kreen 5aver ]
+
+[HKEY_CLASSES_ROOT\scrfile]
+@="Screen saver"
+"FriendlyTypeName"="@shell32,-10162"
+
+[HKEY_CLASSES_ROOT\scrfile\shell]
+
+[HKEY_CLASSES_ROOT\scrfile\shell\MK :-: In5tall]
+@="MK :-: &In5tall"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\scrfile\shell\MK :-: In5tall\command]
+@="rundll32.exe desk.cpl,InstallScreenSaver %l"
+
+[HKEY_CLASSES_ROOT\scrfile\shell\MK :-: Konfigure]
+@="MK :-: K&onfigure"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\scrfile\shell\MK :-: Konfigure\command]
+@="\"%1\""
+
+[HKEY_CLASSES_ROOT\scrfile\shell\MK :-: Open]
+@="MK :-: T&e5t"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\scrfile\shell\MK :-: Open\command]
+@="\"%1\" /S"
+
+[HKEY_CLASSES_ROOT\scrfile\shellex]
+
+[HKEY_CLASSES_ROOT\scrfile\shellex\DropHandler]
+@="{86C86720-42A0-1069-A2E8-08002B30309D}"
+
+:: [ MK ™ .$$T File  ]
+
+[HKEY_CLASSES_ROOT\CertificateStoreFile]
+@="Microsoft Serialized Certificate Store"
+"FriendlyTypeName"="@cryptext.dll,-6112"
+
+[HKEY_CLASSES_ROOT\CertificateStoreFile\shell]
+
+[HKEY_CLASSES_ROOT\CertificateStoreFile\shell\MK :-: Open]
+@="MK :-: &Open"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\CertificateStoreFile\shell\MK :-: Open\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,72,00,75,00,\
+  6e,00,64,00,6c,00,6c,00,33,00,32,00,2e,00,65,00,78,00,65,00,20,00,63,00,72,\
+  00,79,00,70,00,74,00,65,00,78,00,74,00,2e,00,64,00,6c,00,6c,00,2c,00,43,00,\
+  72,00,79,00,70,00,74,00,45,00,78,00,74,00,4f,00,70,00,65,00,6e,00,53,00,54,\
+  00,52,00,20,00,25,00,31,00,00,00
+
+:: [ MK ™ Exe File ]
+
+[HKEY_CLASSES_ROOT\exefile]
+@="Application"
+"EditFlags"=hex:38,07,00,00
+"FriendlyTypeName"=hex(2):40,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,\
+  00,6f,00,6f,00,74,00,25,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,\
+  32,00,5c,00,73,00,68,00,65,00,6c,00,6c,00,33,00,32,00,2e,00,64,00,6c,00,6c,\
+  00,2c,00,2d,00,31,00,30,00,31,00,35,00,36,00,00,00
+
+[HKEY_CLASSES_ROOT\exefile\DefaultIcon]
+@="%1"
+
+[HKEY_CLASSES_ROOT\exefile\shell]
+
+[HKEY_CLASSES_ROOT\exefile\shell\MK :-: Open Azz U5er]
+"EditFlags"=hex:00,00,00,00
+@="MK :-: &Open Azz U5er"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\exefile\shell\MK :-: Open Azz U5er\command]
+@="\"%1\" %*"
+"IsolatedCommand"="\"%1\" %*"
+
+[HKEY_CLASSES_ROOT\exefile\shell\MK :-: Run Azz Admini5trator]
+"HasLUAShield"=""
+@="MK :-: R&un Azz Admini5trator"
+
+[HKEY_CLASSES_ROOT\exefile\shell\MK :-: Run Azz Admini5trator\command]
+@="\"%1\" %*"
+"IsolatedCommand"="\"%1\" %*"
+
+[HKEY_CLASSES_ROOT\exefile\shell\runasuser]
+@="@shell32.dll,-50944"
+"Extended"=""
+"SuppressionPolicyEx"="{F211AA05-D4DF-4370-A2A0-9F19C09756A7}"
+
+[HKEY_CLASSES_ROOT\exefile\shell\runasuser\command]
+"DelegateExecute"="{ea72d00e-4960-42fa-ba92-7792a7944c1d}"
+
+[HKEY_CLASSES_ROOT\exefile\shellex]
+
+[HKEY_CLASSES_ROOT\exefile\shellex\DropHandler]
+@="{86C86720-42A0-1069-A2E8-08002B30309D}"
+
+[HKEY_CLASSES_ROOT\exefile\shellex\PropertySheetHandlers]
+
+[HKEY_CLASSES_ROOT\exefile\shellex\PropertySheetHandlers\PifProps]
+@="{86F19A00-42A0-1069-A2E9-08002B30309D}"
+
+:: [ MK ™ .P7$ File ]
+
+[HKEY_CLASSES_ROOT\P7SFile\shell\MK :-: Open File]
+@="MK :-: &Open File"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\P7SFile\shell\MK :-: Open File\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,5c,00,72,00,\
+  75,00,6e,00,64,00,6c,00,6c,00,33,00,32,00,2e,00,65,00,78,00,65,00,20,00,63,\
+  00,72,00,79,00,70,00,74,00,65,00,78,00,74,00,2e,00,64,00,6c,00,6c,00,2c,00,\
+  43,00,72,00,79,00,70,00,74,00,45,00,78,00,74,00,4f,00,70,00,65,00,6e,00,50,\
+  00,4b,00,43,00,53,00,37,00,20,00,25,00,31,00,00,00
+
+:: [ MK ™ .$TL File ]
+
+[HKEY_CLASSES_ROOT\STLFile]
+@="Certificate Trust List"
+"FriendlyTypeName"="@cryptext.dll,-6109"
+
+[HKEY_CLASSES_ROOT\STLFile\DefaultIcon]
+@="cryptui.dll,-3413"
+
+[HKEY_CLASSES_ROOT\STLFile\shell]
+
+[HKEY_CLASSES_ROOT\STLFile\shell\MK :-: &In5tall Certifikate]
+@="MK :-: &In5tall Certifikate"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\STLFile\shell\MK :-: &In5tall Certifikate\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,72,00,75,00,\
+  6e,00,64,00,6c,00,6c,00,33,00,32,00,2e,00,65,00,78,00,65,00,20,00,63,00,72,\
+  00,79,00,70,00,74,00,65,00,78,00,74,00,2e,00,64,00,6c,00,6c,00,2c,00,43,00,\
+  72,00,79,00,70,00,74,00,45,00,78,00,74,00,41,00,64,00,64,00,43,00,54,00,4c,\
+  00,20,00,25,00,31,00,00,00
+
+[HKEY_CLASSES_ROOT\STLFile\shell\MK :-: Open File]
+"HasLUAShield"=""
+@="MK :-: &Open File"
+
+[HKEY_CLASSES_ROOT\STLFile\shell\MK :-: Open File\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,72,00,75,00,\
+  6e,00,64,00,6c,00,6c,00,33,00,32,00,2e,00,65,00,78,00,65,00,20,00,63,00,72,\
+  00,79,00,70,00,74,00,65,00,78,00,74,00,2e,00,64,00,6c,00,6c,00,2c,00,43,00,\
+  72,00,79,00,70,00,74,00,45,00,78,00,74,00,4f,00,70,00,65,00,6e,00,43,00,54,\
+  00,4c,00,20,00,25,00,31,00,00,00
+
+:: [ MK ™ .Txt File ]
+
+[HKEY_CLASSES_ROOT\txtfile]
+"EditFlags"=dword:00010000
+@="Text Document"
+"FriendlyTypeName"=hex(2):40,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,\
+  00,6f,00,6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,\
+  32,00,5c,00,6e,00,6f,00,74,00,65,00,70,00,61,00,64,00,2e,00,65,00,78,00,65,\
+  00,2c,00,2d,00,34,00,36,00,39,00,00,00
+
+[HKEY_CLASSES_ROOT\txtfile\DefaultIcon]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,69,00,6d,00,\
+  61,00,67,00,65,00,72,00,65,00,73,00,2e,00,64,00,6c,00,6c,00,2c,00,2d,00,31,\
+  00,30,00,32,00,00,00
+
+[HKEY_CLASSES_ROOT\txtfile\shell]
+
+[HKEY_CLASSES_ROOT\txtfile\shell\MK :-: Open File]
+@="MK :-: Open File"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\txtfile\shell\MK :-: Open File\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,4e,00,4f,00,\
+  54,00,45,00,50,00,41,00,44,00,2e,00,45,00,58,00,45,00,20,00,25,00,31,00,00,\
+  00
+
+[HKEY_CLASSES_ROOT\txtfile\shell\MK :-: Print File]
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\txtfile\shell\MK :-: Print File\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,4e,00,4f,00,\
+  54,00,45,00,50,00,41,00,44,00,2e,00,45,00,58,00,45,00,20,00,2f,00,70,00,20,\
+  00,25,00,31,00,00,00
+
+[HKEY_CLASSES_ROOT\txtfile\shell\printto]
+
+[HKEY_CLASSES_ROOT\txtfile\shell\printto\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,6e,00,6f,00,\
+  74,00,65,00,70,00,61,00,64,00,2e,00,65,00,78,00,65,00,20,00,2f,00,70,00,74,\
+  00,20,00,22,00,25,00,31,00,22,00,20,00,22,00,25,00,32,00,22,00,20,00,22,00,\
+  25,00,33,00,22,00,20,00,22,00,25,00,34,00,22,00,00,00
+
+:: [ MK ™ .Vbe File ]
+
+[HKEY_CLASSES_ROOT\VBEFile]
+@="VBScript Encoded File"
+
+[HKEY_CLASSES_ROOT\VBEFile\DefaultIcon]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,57,00,53,00,\
+  63,00,72,00,69,00,70,00,74,00,2e,00,65,00,78,00,65,00,2c,00,32,00,00,00
+
+[HKEY_CLASSES_ROOT\VBEFile\ScriptEngine]
+@="VBScript.Encode"
+
+[HKEY_CLASSES_ROOT\VBEFile\Shell]
+@="Open"
+
+[HKEY_CLASSES_ROOT\VBEFile\Shell\MK :-: Edit File]
+@="MK :-: &Edit File"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\VBEFile\Shell\MK :-: Edit File\Command]
+@=hex(2):22,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,\
+  00,25,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,4e,00,\
+  6f,00,74,00,65,00,70,00,61,00,64,00,2e,00,65,00,78,00,65,00,22,00,20,00,25,\
+  00,31,00,00,00
+
+[HKEY_CLASSES_ROOT\VBEFile\Shell\MK :-: Open File]
+@="MK :-: &Open File"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\VBEFile\Shell\MK :-: Open File\Command]
+@=hex(2):22,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,\
+  00,25,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,57,00,\
+  53,00,63,00,72,00,69,00,70,00,74,00,2e,00,65,00,78,00,65,00,22,00,20,00,22,\
+  00,25,00,31,00,22,00,20,00,25,00,2a,00,00,00
+
+[HKEY_CLASSES_ROOT\VBEFile\Shell\MK :-: Open In Kommand Prompt]
+@=hex(2):4f,00,70,00,65,00,6e,00,20,00,26,00,49,00,6e,00,20,00,4b,00,6f,00,6d,\
+  00,6d,00,61,00,6e,00,64,00,20,00,50,00,72,00,6f,00,6d,00,70,00,74,00,00,00
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\VBEFile\Shell\MK :-: Open In Kommand Prompt\Command]
+@=hex(2):22,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,\
+  00,25,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,43,00,\
+  53,00,63,00,72,00,69,00,70,00,74,00,2e,00,65,00,78,00,65,00,22,00,20,00,22,\
+  00,25,00,31,00,22,00,20,00,25,00,2a,00,00,00
+
+[HKEY_CLASSES_ROOT\VBEFile\Shell\Print]
+
+[HKEY_CLASSES_ROOT\VBEFile\Shell\Print\Command]
+@=hex(2):22,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,\
+  00,25,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,4e,00,\
+  6f,00,74,00,65,00,70,00,61,00,64,00,2e,00,65,00,78,00,65,00,22,00,20,00,2f,\
+  00,70,00,20,00,25,00,31,00,00,00
+
+[HKEY_CLASSES_ROOT\VBEFile\Shell\MK :-: Print File]
+@="MK :-: &Print File"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\VBEFile\Shell\MK :-: Print File\Command]
+@=hex(2):22,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,\
+  00,25,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,4e,00,\
+  6f,00,74,00,65,00,70,00,61,00,64,00,2e,00,65,00,78,00,65,00,22,00,20,00,2f,\
+  00,70,00,20,00,25,00,31,00,00,00
+
+:: [ MK .W$F File ]
+
+[HKEY_CLASSES_ROOT\WSFFile]
+@=hex(2):57,00,69,00,6e,00,64,00,6f,00,77,00,73,00,20,00,53,00,63,00,72,00,69,\
+  00,70,00,74,00,20,00,46,00,69,00,6c,00,65,00,00,00
+"FriendlyTypeName"=hex(2):40,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,\
+  00,6f,00,6f,00,74,00,25,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,\
+  32,00,5c,00,77,00,73,00,68,00,65,00,78,00,74,00,2e,00,64,00,6c,00,6c,00,2c,\
+  00,2d,00,34,00,38,00,30,00,31,00,00,00
+
+[HKEY_CLASSES_ROOT\WSFFile\DefaultIcon]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,57,00,53,00,\
+  63,00,72,00,69,00,70,00,74,00,2e,00,65,00,78,00,65,00,2c,00,32,00,00,00
+
+[HKEY_CLASSES_ROOT\WSFFile\Shell]
+@="Open"
+
+[HKEY_CLASSES_ROOT\WSFFile\Shell\MK :-: Edit File]
+@="MK :-: &Edit File"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\WSFFile\Shell\MK :-: Edit File\Command]
+@=hex(2):22,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,\
+  00,25,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,4e,00,\
+  6f,00,74,00,65,00,70,00,61,00,64,00,2e,00,65,00,78,00,65,00,22,00,20,00,25,\
+  00,31,00,00,00
+
+[HKEY_CLASSES_ROOT\WSFFile\Shell\MK :-: Open File]
+@="MK :-: &Open File"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\WSFFile\Shell\MK :-: Open File\Command]
+@=hex(2):22,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,\
+  00,25,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,57,00,\
+  53,00,63,00,72,00,69,00,70,00,74,00,2e,00,65,00,78,00,65,00,22,00,20,00,22,\
+  00,25,00,31,00,22,00,20,00,25,00,2a,00,00,00
+
+[HKEY_CLASSES_ROOT\WSFFile\Shell\MK :-: Open In Kommand Prompt]
+@=hex(2):4d,00,4b,00,20,00,3a,00,2d,00,3a,00,20,00,4f,00,70,00,65,00,6e,00,20,\
+  00,26,00,49,00,6e,00,20,00,4b,00,6f,00,6d,00,6d,00,61,00,6e,00,64,00,20,00,\
+  50,00,72,00,6f,00,6d,00,70,00,74,00,00,00
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\WSFFile\Shell\MK :-: Open In Kommand Promtp\Command]
+@=hex(2):22,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,\
+  00,25,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,43,00,\
+  53,00,63,00,72,00,69,00,70,00,74,00,2e,00,65,00,78,00,65,00,22,00,20,00,22,\
+  00,25,00,31,00,22,00,20,00,25,00,2a,00,00,00
+
+[HKEY_CLASSES_ROOT\WSFFile\Shell\MK :-: Print File]
+@="MK :-: Print File"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\WSFFile\Shell\MK :-: Print File\Command]
+@=hex(2):22,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,\
+  00,25,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,4e,00,\
+  6f,00,74,00,65,00,70,00,61,00,64,00,2e,00,65,00,78,00,65,00,22,00,20,00,2f,\
+  00,70,00,20,00,25,00,31,00,00,00
+
+
+
+
+

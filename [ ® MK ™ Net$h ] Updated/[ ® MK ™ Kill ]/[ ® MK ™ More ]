@@ -1,0 +1,135 @@
+========================================================
+
+
+Network Adapters
+-----------------
+
+usb\vid_148f&pid_3070      802.11 USB Wireless LAN Card
+
+pci\ven_10ec&dev_8136&rev_02 Realtek RTL8102E/RTL8103E Family PCI-E Fast Ethernet NIC (
+
+
+Network Protocols
+-----------------
+
+ms_tcpip6_tunnel           Microsoft TCP/IP version 6 - Tunnels
+
+ms_tcpip_tunnel            Internet Protocol (TCP/IP) - Tunnels
+
+ms_smb                     Microsoft NetbiosSmb
+
+ms_lltdio                  Link-Layer Topology Discovery Mapper I/O Driver
+
+ms_rspndr                  Link-Layer Topology Discovery Responder
+
+ms_wanarpv6                Remote Access IPv6 ARP Driver
+
+ms_pppoe                   Point to Point Protocol Over Ethernet
+
+ms_pptp                    Point to Point Tunneling Protocol
+
+ms_l2tp                    Layer 2 Tunneling Protocol
+
+ms_ndiswan                 Remote Access NDIS WAN Driver
+
+ms_agilevpn                AgileVpn based VPN
+
+ms_sstp                    SSTP based VPN
+
+ms_ndisuio                 NDIS Usermode I/O Protocol
+
+
+Network Services
+-----------------
+
+ms_vwifi                   Virtual WiFi Filter Driver
+
+ms_nativewifip             NativeWiFi Filter
+
+ms_ndiscap                 NDIS Capture LightWeight Filter
+
+ms_pacer                   QoS Packet Scheduler
+
+ms_server                  File and Printer Sharing for Microsoft Networks
+
+ms_wfplwf                  WFP Lightweight Filter
+
+ms_steelhead               Steelhead
+
+ms_rassrv                  Dial-Up Server
+
+ms_rasman                  Remote Access Connection Manager
+
+
+Network Clients
+-----------------
+
+
+NOTE: 5HOWZ ALL IN5TALLED NET KOMPARTMENTZ.
+
+PRE55 K TO KONTINUE [K]?
+
+========================================================
+::               MK NETWORK KOMPARTMENTZ              ::
+========================================================
+
+
+Network Adapters
+-----------------
+
+pci\ven_10ec&dev_8136&rev_02 Realtek RTL8102E/RTL8103E Family PCI-E Fast Ethernet NIC (NDIS 6.20)
+
+
+Network Protocols
+-----------------
+
+ms_wanarpv6                Remote Access IPv6 ARP Driver
+
+ms_ndiswan                 Remote Access NDIS WAN Driver
+
+
+Network Services
+-----------------
+
+ms_rasman                  Remote Access Connection Manager
+
+
+Network Clients
+-----------------
+
+
+NOTE: 5HOWZ ALL IN5TALLED NET KOMPARTMENTZ.
+
+PRE55 K TO KONTINUE [K]?
+
+========================================================
+::               MK NETWORK KOMPARTMENTZ              ::
+========================================================
+
+
+Network Adapters
+-----------------
+
+
+Network Protocols
+-----------------
+
+ms_wanarpv6                Remote Access IPv6 ARP Driver
+
+ms_ndiswan                 Remote Access NDIS WAN Driver
+
+
+Network Services
+-----------------
+
+ms_steelhead               Steelhead
+
+ms_rasman                  Remote Access Connection Manager
+
+
+Network Clients
+-----------------
+
+
+NOTE: 5HOWZ ALL IN5TALLED NET KOMPARTMENTZ.
+
